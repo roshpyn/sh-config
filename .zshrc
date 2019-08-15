@@ -45,5 +45,5 @@ zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
 alias v=nvim
 alias vim=nvim
 alias lsa='echo "ls -la - done" | ls -la' 
-alias .zsh='. ~/zshrc' #Reload zsh
-alias .zsh-conf='nvim ~/.zhrc' #Open this config
+alias .zsh='. ~/.zshrc' #Reload zsh
+alias .zsh-conf='nvim ~/.zshrc' #Open this config
